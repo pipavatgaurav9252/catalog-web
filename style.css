@@ -121,7 +121,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 99%;
-    margin: auto;
+    margin: 10px auto;
     justify-content: space-around;
 }
 .image-pere{
@@ -136,8 +136,41 @@ header {
 
 
 }
+.image-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
 
+.btn1{
+    padding: 15px 30px;
+    margin:0px 20px;
+    color: white;
+    background-color: #3398CC;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
 
+.btn2{
+    padding: 15px 30px;
+    margin:0px 20px;
+    color: white;
+    font-size: 15px;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1{
+    background-color:  #3398CC;
+}
+
+button:hover{
+    background-color: green;
+}
 
 
 
