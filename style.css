@@ -100,6 +100,45 @@ header {
 
 }
 
+.latest-image-heading input{
+    width: 50px;
+    padding: 10px 5px;
+    
+}
+.latest-image-main{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.latest-image-heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    color:green;
+    margin: 15px;
+}
+.latest-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    margin: auto;
+    justify-content: space-around;
+}
+.image-pere{
+    display: flex;
+    justify-content: space-between ;
+    color: lightgray;
+    margin-top: 10px;
+
+}
+.latest-image-box img{
+    width: 280px;
+
+
+}
+
+
+
 
 
 
