@@ -63,6 +63,49 @@ header {
     border-bottom: 3px solid hotpink;
 }
 
+.hero-main{
+        background-image: url("https://templatemo.com/templates/templatemo_556_catalog_z/img/hero.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+}
+
+.hero-main input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: lightgreen;
+    outline: none;
+
+}
+
+.search-btn {
+    background-color: #3398CC;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    cursor: pointer;
+      
+
+}
+.search-btn:hover {
+    background-color:green;
+    color: white;
+
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width:376px) {
 
@@ -70,10 +113,14 @@ header {
         position: relative;
 
     }
+    .logo {
+        font-size: 25px;
+    }
 
     .navbar i {
         display: block;
         color:#3398CC;
+        font-size: 25px;
     }
 
 
@@ -89,11 +136,9 @@ header {
     }
 
     .navbar a {
-
         font-size: 20px;
         display: block;
         text-decoration: none;
-
     }
 
     nav.show {
@@ -101,4 +146,22 @@ header {
 
     }
 
+    .hero-main input {
+        width: 200px;
+        height: 30px;
+        padding: 5px;
+        font-size: 15px;
+         
+    }
+    .hero-main {
+        height: 130px;
+    }
+
+.search-btn {
+        padding: 7px 13px;
+        font-size: 15px;
+    }
+
+
+    
 }
