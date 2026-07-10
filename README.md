@@ -85,7 +85,7 @@ The website is designed to work on:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/catalog-z.git
+git clone https://github.com/pipavatgaurav9252/catalog-z.git
 ```
 
 2. Open the project folder.
